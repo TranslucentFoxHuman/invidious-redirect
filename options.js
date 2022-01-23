@@ -26,7 +26,7 @@ function restoreOptions() {
 
   let getting = browser.storage.sync.get({
     enabled: true,
-    instance: 'invidiou.site',
+    instance: 'invidio.us',
   });
   getting.then(setCurrentChoice, onError);
 }
